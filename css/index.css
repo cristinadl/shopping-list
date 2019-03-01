@@ -1,0 +1,70 @@
+body{
+	font-family: Apple Chancery;
+	font size: 13px;
+	color: #1b1b1d;
+	margin: 0;
+	padding: 0;
+	background-color: #59c5dd
+}
+
+h1{
+	background-color: #59c5dd;
+	margin:0;
+	padding: 40px;
+	color: black;
+	text-align: center;
+}
+
+p{
+	font-family: Apple Chancery;
+	font-weight: lighter;
+}
+
+li{
+	display: block;
+	margin: 20px 30px;
+	font-size: 30px;
+	border: 3px dashed;
+	border-color: #ff7f50;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.delButton{
+	background-color: #d11000;
+	border-color: black;
+	border-radius: 20px;
+	font-size: 15px
+}
+
+.checkButton{
+	background-color: #d1e71c;
+	border-color: black;
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+#addButton{
+	background-color: #f5f5dc;
+	border-color: black;
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+.checked > p{
+	text-decoration: line-through;
+	font-style: italic;
+	color: grey;
+}
+
+
+
+@media all and (min-width:420px) and (max-width: 720px){
+  .items{
+    float: left;
+    width: 40%;
+    box-sizing: border-box; 
+    margin: 10px;
+    padding: 5px;
+  }
